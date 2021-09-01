@@ -11,4 +11,4 @@ echo '<li><a class="dropdown-item" href="./threadlist.php?catid='.$cat_id.'">'.$
 }
 
 ?>
-<!-- LIMIT 3 add krdo limit ke liye  -->
+<!--sql mein  LIMIT 3 add krdo limit ke liye  -->

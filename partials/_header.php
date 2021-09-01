@@ -31,9 +31,9 @@ echo'<nav class="navbar navbar-expand-lg navbar-dark bg-dark  justify-content-ce
 <?php
 
      if(isset($_SESSION['loggedin'])&& $_SESSION['loggedin']==true){
-        echo '<form class="d-flex  ">
+        echo '<form class="d-flex" action="/forum/search.php" method="GET">
         <div class="  d-flex">
-        <input class="form-control me-2" type="search"  placeholder="Search" aria-label="Search">
+        <input class="form-control me-2" type="search"  placeholder="Search" aria-label="Search" name="search">
         <button class="btn btn-primary" type="submit">Search</button>
         </div>
         <div class="flex-shrink-0 mx-2">

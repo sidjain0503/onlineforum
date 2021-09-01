@@ -94,7 +94,7 @@
                             Do not post copyright-infringing material.</li>
                     </ul>
                 </div>
-                <button class="btn btn-outline-primary" type="button">Browse more</button>
+               
             </div>
 
             <div class="container-fluid row my-2" id="ques">
