@@ -91,7 +91,8 @@
                             Do not post “offensive” posts, links or images
                         </li>
                         <li>
-                            Do not post copyright-infringing material.</li>
+                            Your activities are monitored,do not post copyright-infringing material.</li>
+                            
                     </ul>
                 </div>
                

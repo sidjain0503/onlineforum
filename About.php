@@ -11,12 +11,40 @@
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <title>Lets-Discuss</title>
+    <style>
+        .container{
+            min-height: 79vh;
+        }
+    </style>
 </head>
 
 <body>
     <?php
         include './partials/_header.php';
         ?>
+<div class="container">
+    
+<div class="row featurette my-4">
+      <div class="col-md-12 text-center">
+        <h2 class="featurette-heading">MyCodeForum <span class="display-4 text-muted">A FREE ONLINE FORUM !</span></h2>
+        <p class="lead ">MyCodeForum aims to be a platform for the huge online community of coders.</p>
+        <p class="lead">We are here to be a full fledged solution for all your problems and their answers.</p>
+        <h3 class="featurette-heading">How does it work? </h3>
+        
+        <div class=" p-5 bg-light border rounded-3">
+          
+         <ol >
+            <li class="text-muted">Users from the community can become a part of this forum by signing in , 
+            which enables users to ask and answer their problems . </li>
+            <li class="text-muted">We have a variety of topics , which will be getting updated as we grow! you can see them in the category section</li>
+            <li class="text-muted">Users can also search for their questions.</li>
+        </ol>
+        </div>
+        
+      </div>
+     
+    </div>
+</div>
 
 <?php    include './partials/_footer.php';?>
         </div>
