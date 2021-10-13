@@ -37,9 +37,9 @@ echo'<nav class="navbar navbar-expand-lg navbar-dark bg-dark  justify-content-ce
         <button class="btn btn-primary" type="submit">Search</button>
         </div>
         <div class="flex-shrink-0 mx-2">
-        <img src="./img/user.png" class="my-1" style="width:30px;" alt="...">
-        <strong class="text-light "> Welcome '.$_SESSION['username'].'</strong>
-        <a href="/forum/partials/_logout.php" class="btn btn btn-outline-primary"  >LogOut</a>
+        <a href="/forum/profile.php?userid='.$_SESSION['sno'].'"><img src="./img/user.png" class="my-1" style="width:30px;" alt="..."></a>
+        <strong class="text-light " onclick="profile()"> Welcome '.$_SESSION['username'].'</strong>
+        <a href="/forum/partials/_logout.php" class="btn btn btn-outline-primary">LogOut</a>
 
 
     </div>
@@ -79,3 +79,10 @@ else{
   }
 }
 ?>
+
+<script>
+  function profile(){
+    console.log("clicked");
+    window.location.href = "<?php echo '/forum/profile.php?userid='.$_SESSION['sno']; ?>";
+  }
+</script>

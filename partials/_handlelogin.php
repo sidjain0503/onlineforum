@@ -17,6 +17,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
         $_SESSION['loggedin']=true; 
         $_SESSION['useremail'] =$email;
         $_SESSION['username'] = $row['user_name'];
+        $_SESSION['userTime'] = $row['user_time'];
         $_SESSION['sno'] = $row['sno'];
 
         header("Location:/forum/index.php");

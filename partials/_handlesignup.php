@@ -25,12 +25,13 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
            
         }else{
             $showError= "passwords do not match";
+            
 
         }
     }
     header("Location:/forum/index.php?signupsuccess=false&error=$showError");
 
-
 }
 
 ?>
+<!--  -->
